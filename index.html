@@ -1,0 +1,64 @@
+<!DOCTYPE html><html><head><title>minimal.css</title><link href="./minimal.min.css" rel="stylesheet"/><meta name="viewport" content="width=device-width, initial-scale=1"/></head><body> <h1 id="minimalcss">minimal.css</h1>
+<p>A simple stylesheet for simple webpages</p>
+
+<p>The modern Web is full of eye-popping, heavy, javascript-laden sites. But some
+things just don&#8217;t have to be complicated. HTML is a powerful tool by itself,
+and it&#8217;s more than capable of producing an informative, complete website.</p>
+
+<p>But it could use a little help. minimal.css is a &lt;1kb stylesheet that makes
+plain HTML just a little nicer.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Responsive column width so your site looks good on huge and tiny screens, and
+everything in between</li>
+  <li>Images are prevented from overflowing the width of the column</li>
+  <li>Automatic support for dark mode using the prefers-color-scheme: dark media
+query</li>
+</ul>
+
+<p>Plus a couple other changes. For example, blockquotes have a border on the left
+so they stand out more, and the font is changed to sans-serif. In general,
+minimal.css tries to change as little as possible from the defaults.</p>
+
+<h2 id="using-minimalcss">Using minimal.css</h2>
+<p>The best option is to <a href="https://minimalcss.flyingpimonster.net/minimal.min.css">download minimal.css</a>
+and copy it into your site files. This gives you full control of how the file
+is downloaded; no third party sites are involved.</p>
+
+<p>Another easy option is to link it directly in your HTML using the following
+code in your <code>head</code> tag:</p>
+
+<pre><code>&lt;link href="https://minimalcss.flyingpimonster.net/minimal.min.css" rel="stylesheet" referrerpolicy="no-referrer" /&gt;
+</code></pre>
+
+<p>Either way, you should also add the following to your <code>&lt;head&gt;</code> tag to make sure
+your site is the correct size on mobile:</p>
+
+<pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;
+</code></pre>
+
+<h2 id="demo">Demo</h2>
+<p><a href="https://minimalcss.flyingpimonster.net/test.html">This demo page</a> demonstrates
+how many HTML tags appear using minimal.css.</p>
+
+<h2 id="development">Development</h2>
+<p><a href="https://gitlab.com/FlyingPiMonster/minimal-css">View Repository on GitLab</a></p>
+
+<p>I consider minimal.css to be basically complete so please file an issue before
+a merge request, no matter how minor the change is.</p>
+
+<p>If you want to compile minimal.css for yourself, just clone the repository and
+edit minimal.sass. Then use the provided Makefile to compile your changes:</p>
+
+<ul>
+  <li><code>make</code> to compile once</li>
+  <li><code>make watch</code> to monitor changes and recompile automatically</li>
+</ul>
+
+<h2 id="copyright">Copyright</h2>
+<p><img src="https://licensebuttons.net/p/zero/1.0/88x31.png" alt="Public Domain" /></p>
+
+<p>minimal.css is public domain under the CC0 public domain dedication. You may
+have received a copy of it with the code; if not,
+<a href="https://creativecommons.org/publicdomain/zero/1.0/">see here</a>.</p> </body></html>
